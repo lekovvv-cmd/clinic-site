@@ -3,48 +3,48 @@
     "id": 1,
     "title": "Кардиология",
     "description": "Диагностика и лечение сердечно-сосудистых заболеваний",
-    "iconUrl": "src/assets/icons/heart.svg"
+    "iconUrl": "/clinic-site/icons/heart.svg"
   },
   {
     "id": 2,
     "title": "Неврология",
     "description": "Лечение заболеваний центральной и периферической нервной системы",
-    "iconUrl": "src/assets/icons/brain.svg"
+    "iconUrl": "/clinic-site/icons/brain.svg"
   },
   {
     "id": 3,
     "title": "Педиатрия",
     "description": "Медицинская помощь детям и подросткам",
-    "iconUrl": "src/assets/icons/kids.svg"
+    "iconUrl": "/clinic-site/icons/kids.svg"
   },
   {
     "id": 4,
     "title": "Терапия",
     "description": "Диагностика и лечение внутренних болезней",
-    "iconUrl": "src/assets/icons/therapy.svg"
+    "iconUrl": "/clinic-site/icons/therapy.svg"
   },
   {
     "id": 5,
     "title": "Офтальмология",
     "description": "Диагностика и лечение заболеваний глаз",
-    "iconUrl": "src/assets/icons/eye.svg"
+    "iconUrl": "/clinic-site/icons/eye.svg"
   },
   {
     "id": 6,
     "title": "Дерматология",
     "description": "Лечение кожных заболеваний",
-    "iconUrl": "src/assets/icons/skin.svg"
+    "iconUrl": "/clinic-site/icons/skin.svg"
   },
   {
     "id": 7,
     "title": "Гастроэнтерология",
     "description": "Диагностика и лечение заболеваний желудочно-кишечного тракта",
-    "iconUrl": "src/assets/icons/stomach.svg"
+    "iconUrl": "/clinic-site/icons/stomach.svg"
   },
   {
     "id": 8,
     "title": "Эндокринология",
     "description": "Лечение заболеваний эндокринной системы",
-    "iconUrl": "src/assets/icons/endocrine.svg"
+    "iconUrl": "/clinic-site/icons/endocrine.svg"
   }
 ]
