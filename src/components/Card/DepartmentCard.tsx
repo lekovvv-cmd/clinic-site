@@ -10,7 +10,7 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ title, image }) => (
     className="
       bg-white rounded-2xl p-6 shadow hover:shadow-lg transition
       flex flex-col justify-between items-start cursor-pointer
-      h-full
+      h-auto md:h-full
     "
   >
     <h3 className="text-lg font-semibold mb-4">{title}</h3>

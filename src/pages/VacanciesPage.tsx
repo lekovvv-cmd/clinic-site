@@ -3,6 +3,7 @@ import { Paperclip } from "lucide-react";
 import DepartmentCard from "../components/Card/DepartmentCard";
 import { vacancies } from "../data/vacancies";
 import { Button } from "../components/Button/Button";
+import { motion, AnimatePresence } from "framer-motion";
 
 const VacanciesPage: React.FC = () => {
   const [selected, setSelected] = useState<string>(vacancies[0].key);
@@ -11,11 +12,15 @@ const VacanciesPage: React.FC = () => {
   const [info, setInfo] = useState("");
   const [consent, setConsent] = useState(false);
   const [file, setFile] = useState<File | null>(null);
+  const [showModal, setShowModal] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!consent) return;
+
     console.log({ selected, name, phone, info, file });
+    setShowModal(true);
+    // reset form
     setName("");
     setPhone("");
     setInfo("");
@@ -104,7 +109,7 @@ const VacanciesPage: React.FC = () => {
                     className="w-4 h-4 text-red-600 border-gray-300 rounded focus:ring-red-500"
                   />
                   <span className="text-sm text-gray-700">
-                    Я даю согласие на{" "}
+                    Я даю согласие на{' '}
                     <a href="#" className="text-red-600 hover:underline">
                       обработку персональных данных
                     </a>
@@ -147,6 +152,45 @@ const VacanciesPage: React.FC = () => {
           </form>
         </div>
       </div>
+
+      <AnimatePresence>
+        {showModal && (
+          <>            
+            <motion.div
+              className="fixed inset-0 z-50 bg-black/50"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              onClick={() => setShowModal(false)}
+            />
+
+            <motion.div
+              className="fixed inset-0 z-50 flex items-center justify-center p-4"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              transition={{ duration: 0.2 }}
+            >
+              <div className="bg-white rounded-2xl p-6 max-w-md w-full text-center space-y-6">
+                <h3 className="text-2xl font-semibold text-green-600">
+                  Спасибо! Мы получили ваше резюме.
+                </h3>
+                <p className="text-gray-700">
+                  Мы свяжемся с вами в ближайший рабочий день.
+                </p>
+                <Button
+                  onClick={() => setShowModal(false)}
+                  variant="primary"
+                  className="w-full"
+                >
+                  Закрыть
+                </Button>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
