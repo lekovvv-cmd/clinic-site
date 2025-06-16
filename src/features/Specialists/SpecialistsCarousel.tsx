@@ -1,8 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import type { Doctor } from "../../types";
 import { DoctorCard } from "../../components/Card/DoctorCard";
-import ArrowLeft from "../../assets/icons/arrow-left.svg";
-import ArrowRight from "../../assets/icons/arrow-right.svg";
 
 export type SpecialistsCarouselProps = { specialists: Doctor[] };
 
@@ -50,7 +48,11 @@ export const SpecialistsCarousel: React.FC<SpecialistsCarouselProps> = ({
           className="absolute left-0 inset-y-0 w-16 cursor-pointer z-10 flex items-center justify-center"
         >
           <div className="bg-white p-2 rounded-full shadow hover:bg-gray-100 transition">
-            <img src={ArrowLeft} alt="Назад" className="w-6 h-6 text-red-600" />
+            <img
+              src="assets/icons/arrow-left.svg"
+              alt="Назад"
+              className="w-6 h-6"
+            />
           </div>
         </div>
       )}
@@ -73,9 +75,9 @@ export const SpecialistsCarousel: React.FC<SpecialistsCarouselProps> = ({
         >
           <div className="bg-white p-2 rounded-full shadow hover:bg-gray-100 transition">
             <img
-              src={ArrowRight}
+              src="assets/icons/arrow-right.svg"
               alt="Вперед"
-              className="w-6 h-6 text-red-600"
+              className="w-6 h-6"
             />
           </div>
         </div>

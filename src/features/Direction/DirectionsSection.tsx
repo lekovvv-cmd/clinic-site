@@ -7,7 +7,7 @@ const DirectionsSection = () => {
   const { data: dirs, isLoading, isError } = useGetDirectionsQuery();
   const [showAll, setShowAll] = useState(false);
 
-  const visibleDirs = showAll ? dirs : dirs?.slice(0, 6);
+  const visibleCount = showAll ? dirs?.length ?? 0 : 6;
 
   return (
     <section className="py-2" id="directions">
@@ -20,15 +20,20 @@ const DirectionsSection = () => {
         </p>
       )}
 
-      {visibleDirs && (
+      {dirs && (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
-            {visibleDirs.map((dir) => (
-              <DirectionCard key={dir.id} dir={dir} />
+            {dirs.map((dir, index) => (
+              <div
+                key={dir.id}
+                style={{ display: index < visibleCount ? "block" : "none" }}
+              >
+                <DirectionCard dir={dir} />
+              </div>
             ))}
           </div>
 
-          {dirs && dirs.length > 6 && (
+          {dirs.length > 6 && (
             <div className="text-center mt-8">
               <Button onClick={() => setShowAll((prev) => !prev)}>
                 {showAll ? "Скрыть" : "Показать ещё"}
@@ -40,5 +45,6 @@ const DirectionsSection = () => {
     </section>
   );
 };
+
 
 export default DirectionsSection;

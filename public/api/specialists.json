@@ -3,180 +3,180 @@
     "id": "1",
     "name": "Иванова Мария Сергеевна",
     "title": "Отоларинголог (ЛОР)",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "2",
     "name": "Петров Алексей Владимирович",
     "title": "Гастроэнтеролог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "3",
     "name": "Смирнова Ольга Николаевна",
     "title": "Акушер‑гинеколог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "4",
     "name": "Васильев Дмитрий Андреевич",
     "title": "Эндокринолог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "5",
     "name": "Кузнецова Елена Викторовна",
     "title": "Кардиолог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "6",
     "name": "Морозов Сергей Павлович",
     "title": "Невролог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "7",
     "name": "Соколова Анна Игоревна",
     "title": "Дерматолог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "8",
     "name": "Волков Игорь Евгеньевич",
     "title": "Терапевт",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "9",
     "name": "Новиков Артем Олегович",
     "title": "Терапевт",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "10",
     "name": "Козлова Татьяна Дмитриевна",
     "title": "Педиатр",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "11",
     "name": "Лебедев Максим Викторович",
     "title": "Хирург",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "12",
     "name": "Семенова Ирина Анатольевна",
     "title": "Офтальмолог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "13",
     "name": "Егоров Павел Сергеевич",
     "title": "Уролог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "14",
     "name": "Орлова Юлия Валентиновна",
     "title": "Ортопед",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "15",
     "name": "Федоров Антон Ильич",
     "title": "Психиатр",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "16",
     "name": "Григорьева Екатерина Петровна",
     "title": "Аллерголог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "17",
     "name": "Тарасов Владислав Николаевич",
     "title": "Ревматолог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "18",
     "name": "Белова Надежда Александровна",
     "title": "Онколог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "19",
     "name": "Андреев Григорий Станиславович",
     "title": "Инфекционист",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "20",
     "name": "Михайлова Вероника Сергеевна",
     "title": "Терапевт",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "21",
     "name": "Сорокин Денис Андреевич",
     "title": "Отоларинголог (ЛОР)",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "22",
     "name": "Власова Анастасия Игоревна",
     "title": "Гастроэнтеролог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "23",
     "name": "Крылов Артем Витальевич",
     "title": "Хирург",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "24",
     "name": "Зайцева Ольга Дмитриевна",
     "title": "Педиатр",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "25",
     "name": "Мельников Станислав Олегович",
     "title": "Офтальмолог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "26",
     "name": "Романова Виктория Андреевна",
     "title": "Уролог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "27",
     "name": "Комаров Алексей Сергеевич",
     "title": "Ортопед",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "28",
     "name": "Гусева Марина Владимировна",
     "title": "Аллерголог",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "29",
     "name": "Тихонов Иван Петрович",
     "title": "Отоларинголог (ЛОР)",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   },
   {
     "id": "30",
     "name": "Фролова Елена Васильевна",
     "title": "Хирург",
-    "photoUrl": "src/assets/images/specialists/specialist.png"
+    "photoUrl": "/clinic-site/images/specialists/specialist.png"
   }
 ]

@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "../components/Layouts/ScrollToTop";
 
 const Header = lazy(() => import("../components/Layouts/Header"));
@@ -17,7 +17,7 @@ const Vacancies = lazy(() => import("../pages/VacanciesPage"));
 const About = lazy(() => import("../pages/AboutPage"));
 
 export const AppRouter: React.FC = () => (
-  <BrowserRouter>
+  <HashRouter>
     <ScrollToTop />
     <Header />
     <Routes>
@@ -34,5 +34,5 @@ export const AppRouter: React.FC = () => (
       <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
-  </BrowserRouter>
+  </HashRouter>
 );

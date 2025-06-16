@@ -7,11 +7,7 @@ import StatsSection from "../features/Landing/StatsSection";
 
 const Landing: React.FC = () => (
   <main>
-    <Hero />git remote add origin https://github.com/lekovvv-cmd/clinic-site.git
-git add .
-git commit -m "init"
-git push -u origin main
-
+    <Hero />
     <SpecialistsSection />
     <DirectionsSection />
     <StatsSection />

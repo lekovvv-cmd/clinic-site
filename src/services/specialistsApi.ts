@@ -3,7 +3,7 @@ import type { Doctor } from "../types";
 
 export const specialistsApi = createApi({
   reducerPath: "specialistsApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "/clinic-site/" }),
   endpoints: (builder) => ({
     getSpecialists: builder.query<Doctor[], void>({
       query: () => "api/specialists.json",

@@ -3,7 +3,7 @@ import type { Direction } from "../types";
 
 export const directionsApi = createApi({
   reducerPath: "directionsApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "/clinic-site/" }),
   endpoints: (builder) => ({
     getDirections: builder.query<Direction[], void>({
       query: () => "api/directions.json",

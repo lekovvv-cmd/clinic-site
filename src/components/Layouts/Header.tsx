@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "../Button/Button";
 import { Menu, X } from "lucide-react";
-import Logo from "../../assets/icons/logo.svg";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Header: React.FC = () => {
@@ -22,8 +21,11 @@ const Header: React.FC = () => {
     <header className="shadow border-b border-gray-200">
       <div className="container mx-auto px-4 flex items-center justify-between py-4">
         <Link to="/" className="flex items-center space-x-2">
-          <img src={Logo} alt="ЭкоМед" className="h-8 relative -top-[4px]" />
-
+          <img
+            src="/clinic-site/assets/icons/logo.svg"
+            alt="ЭкоМед"
+            className="h-8 relative -top-[4px]"
+          />
           <span className="font-serif text-2xl">ЭкоМед</span>
         </Link>
 
