@@ -1,4 +1,4 @@
-import{j as s}from"./index-CJAU2vX6.js";const r=({title:t,image:e})=>s.jsxs("div",{className:`\r
+import{j as s}from"./index-CSpuCvkI.js";const r=({title:t,image:e})=>s.jsxs("div",{className:`\r
       bg-white rounded-2xl p-6 shadow hover:shadow-lg transition\r
       flex flex-col justify-between items-start cursor-pointer\r
       h-auto md:h-full\r
